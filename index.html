@@ -5,8 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
  
 </head>
+<style>
+      #todoCards {
+        display: flex;
+        flex-direction: row;        
+    }
+
+    .todoCard {
+        position: relative;             
+        width: 200px;                   
+    }
+
+    .task {
+        resize: none;
+    }
+
+    .bouton {        
+        position: absolute;
+        top: 200px;        
+        left: 150px;
+    }
+
+</style>
 <body>
     <div id="wrapper">
 
@@ -18,7 +41,9 @@
                 <div id="todoCards">
                     <div class="todoCard">
                         <textarea class="task" maxlength="200" cols="20" rows="15">New task</textarea>
-                        <span class="delBtn"><i class="fa-solid fa-trash-can" aria-hidden="true"></i></span>
+                        <div class="bouton">
+                            <span class="delBtn"><i class="fa-solid fa-trash-can" aria-hidden="true"></i></span>
+                        </div>                        
                     </div>
                 </div>
         </div>
