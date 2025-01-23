@@ -14,12 +14,6 @@ Ce projet est une application simple de gestion de tâches (Todo List) en utilis
 2. **CSS** : Mise en forme des éléments, y compris la disposition des cartes de tâches.
 3. **JavaScript** : Gestion des événements pour ajouter et supprimer des tâches, et mettre à jour le compteur de tâches.
 
-## Comment Utiliser
-
-1. Clonez ou téléchargez le projet.
-2. Ouvrez le fichier `index.html` dans votre navigateur.
-3. Cliquez sur le bouton "Add a task" pour ajouter de nouvelles tâches.
-4. Cliquez sur l'icône de la corbeille pour supprimer une tâche.
 
 ## Fonctionnement du Code
 
