@@ -27,11 +27,6 @@ Ce projet est une application simple de gestion de tâches (Todo List) en utilis
 - **Supprimer une tâche** : Chaque tâche a un bouton (icône de poubelle) qui permet de la supprimer de la liste.
 - **Compteur de tâches** : Le nombre de tâches présentes dans la liste est affiché et mis à jour en temps réel.
 
-## Prérequis
 
-- Un navigateur Web pour afficher la page.
-- Connexion internet pour charger les bibliothèques externes (Font Awesome pour les icônes).
 
-## Licence
 
-Ce projet est sous licence MIT. Vous pouvez l'utiliser, le modifier, et le distribuer librement.
